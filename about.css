@@ -1,0 +1,95 @@
+/* Reset dan dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Container utama */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Judul Halaman */
+h1 {
+  text-align: center;
+  color: #2b5aa0;
+  margin-bottom: 30px;
+}
+
+/* Paragraf pengantar */
+.intro {
+  font-size: 1.1rem;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+/* Section anggota tim */
+.anggota-tim {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+/* Kartu anggota */
+.anggota {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  flex: 1 1 280px;
+  max-width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.anggota:hover {
+  transform: translateY(-5px);
+}
+
+/* Gambar profil anggota */
+.anggota img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Nama anggota */
+.anggota h2 {
+  font-size: 1.2rem;
+  color: #1d3c72;
+  margin-bottom: 10px;
+}
+
+/* Deskripsi anggota */
+.anggota p {
+  font-size: 0.95rem;
+  text-align: justify;
+  color: #444;
+}
+
+/* Responsif untuk perangkat kecil */
+@media (max-width: 600px) {
+  .anggota-tim {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .anggota {
+    width: 90%;
+  }
+}

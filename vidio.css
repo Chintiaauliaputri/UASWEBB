@@ -1,0 +1,78 @@
+/* style.css */
+
+/* Reset dan font dasar */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2a7ae2;
+}
+
+.description {
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+/* Gaya tiap card video */
+.card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+iframe {
+    width: 100%;
+    height: 315px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.card-title {
+    font-size: 1.3em;
+    margin: 10px 0;
+    color: #1c1c1c;
+}
+
+.card-body a {
+    display: inline-block;
+    padding: 10px 16px;
+    background-color: #2a7ae2;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.card-body a:hover {
+    background-color: #195ab3;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    iframe {
+        height: 200px;
+    }
+}

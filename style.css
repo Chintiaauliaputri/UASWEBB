@@ -1,0 +1,238 @@
+/*HEADER STYLE*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 60px
+    background: color #111827;
+    color:white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+header. logo{
+    font-size: 24px;
+    font-weight: bold;
+    color:#5eead4;
+}
+
+nav a {
+    margin:0 12px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav a: hover {
+    color:#5eead4;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Biar rata tengah */
+  gap: 20px; /* Jarak antar kotak */
+  padding: 40px 20px; /* Ruang kiri-kanan dan atas-bawah */
+}
+
+.card {
+  background-color: #1e293b;
+  color: white;
+  width: 300px;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+/* style.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f172a;
+  color: #ffffff;
+}
+
+header {
+  background: #1e293b;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  font-size: 28px;
+  margin: 0;
+  background: linear-gradient(to right, #60a5fa, #34d399);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+nav a {
+  color: white;
+  margin-left: 25px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #34d399;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: #1e293b;
+}
+
+.hero h2 {
+  font-size: 40px;
+  background: linear-gradient(to right, #60a5fa, #34d399);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 18px;
+  margin: 10px 0 20px;
+  color: #cbd5e1;
+}
+
+button, .btn {
+  background: linear-gradient(to right, #60a5fa, #34d399);
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+button:hover, .btn:hover {
+  filter: brightness(1.1);
+}
+
+.section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #0f172a;
+}
+
+.section h3 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.card {
+  background: #1e293b;
+  border-radius: 12px;
+  padding: 30px;
+  width: 250px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #60a5fa;
+}
+
+.card p {
+  font-size: 14px;
+  color: #cbd5e1;
+}
+.features {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #0f172a;
+}
+
+.features-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.feature-card {
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  max-width: 280px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+}
+
+.feature-icon {
+  font-size: 48px;
+  color: #34d399;
+  margin-bottom: 20px;
+}
+
+.feature-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.feature-card p {
+  font-size: 14px;
+  color: #cbd5e1;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  gap: 20px; /* Jarak antar menu */
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #34d399;
+}
